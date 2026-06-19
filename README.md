@@ -39,6 +39,10 @@ To use as a command-line tool:
 pip install -e .
 ```
 
+## Contributing
+
+Please read `CONTRIBUTING.md` before opening issues or pull requests. Use the GitHub issue and PR templates in `.github/` to provide complete information.
+
 ## Configuration
 
 ### Database Catalog
