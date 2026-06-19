@@ -38,3 +38,10 @@ Open an issue with:
 - What happened
 - Error message or logs
 - Python version
+
+## Using issue and pull request templates
+
+This repository includes GitHub templates for bug reports, feature requests, and pull requests.
+- Use the Bug report template for bugs and unexpected behavior.
+- Use the Feature request template for new ideas or improvements.
+- Use the Pull request template when submitting code changes.
