@@ -39,6 +39,18 @@ To use as a command-line tool:
 pip install -e .
 ```
 
+## Contributing
+
+Please read `CONTRIBUTING.md` before opening issues or pull requests. Use the GitHub issue and PR templates in `.github/` to provide complete information.
+
+## Wiki
+
+This repository can also host extended documentation in the GitHub Wiki:
+
+- Use the Wiki for how-to guides, architecture notes, and usage examples.
+- Link from `README.md` to important wiki pages once they are created.
+- The wiki is managed in the GitHub UI and is ideal for user-facing documentation.
+
 ## Configuration
 
 ### Database Catalog
