@@ -1,0 +1,29 @@
+[
+  {
+    "alias": "prod-main",
+    "dbname": "production_db",
+    "db_endpoint": "prod-main.abcdef1234567.ap-south-1.rds.amazonaws.com",
+    "port": 5432,
+    "region": "ap-south-1",
+    "account_id": "123456789012",
+    "env": "prod"
+  },
+  {
+    "alias": "staging-main",
+    "dbname": "staging_main",
+    "db_endpoint": "staging-main.opqrstu123456.ap-south-1.rds.amazonaws.com",
+    "port": 5432,
+    "region": "ap-south-1",
+    "account_id": "123456789012",
+    "env": "staging"
+  },
+  {
+    "alias": "dev-local",
+    "dbname": "dev_database",
+    "db_endpoint": "dev-db.abcdef9876543.ap-south-1.rds.amazonaws.com",
+    "port": 5432,
+    "region": "ap-south-1",
+    "account_id": "123456789012",
+    "env": "dev"
+  }
+]
