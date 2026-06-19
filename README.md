@@ -41,15 +41,7 @@ pip install -e .
 
 ## Contributing
 
-Please read `CONTRIBUTING.md` before opening issues or pull requests. Use the GitHub issue and PR templates in `.github/` to provide complete information.
-
-## Wiki
-
-This repository can also host extended documentation in the GitHub Wiki:
-
-- Use the Wiki for how-to guides, architecture notes, and usage examples.
-- Link from `README.md` to important wiki pages once they are created.
-- The wiki is managed in the GitHub UI and is ideal for user-facing documentation.
+Please read `CONTRIBUTING.md` before opening issues or pull requests.
 
 ## Configuration
 
@@ -139,25 +131,6 @@ python connect_rds_manager.py prod-mai
 python connect_rds_manager.py prod-main --verbose
 ```
 
-## Usage Examples
-
-```bash
-# List all databases
-python connect_rds_manager.py --list
-
-# Connect to a database
-python connect_rds_manager.py prod-main
-
-# Preview before connecting
-python connect_rds_manager.py prod-main --preview
-
-# Connect as specific user
-python connect_rds_manager.py prod-main --user admin
-
-# Non-interactive mode
-python connect_rds_manager.py prod-main --no-prompt
-```
-
 ## How It Works
 
 1. Loads your database catalog from JSON
@@ -167,25 +140,6 @@ python connect_rds_manager.py prod-main --no-prompt
 5. Opens psql session with the token as password
 
 No passwords are stored or hardcoded - authentication happens entirely through AWS IAM.
-
-## Troubleshooting
-
-**psql not found:**
-```bash
-# Ubuntu/Debian
-sudo apt-get install postgresql-client
-
-# macOS
-brew install postgresql
-```
-
-**AWS credentials not configured:**
-```bash
-aws configure
-```
-
-**Token generation fails:**
-Check that your IAM user has `rds-db:connect` permission.
 
 ## Troubleshooting
 
