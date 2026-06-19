@@ -1,5 +1,5 @@
 boto3>=1.28.0
-botocore>=1.31.0
+botocore>=1.42.97
 pytest>=7.0.0
 pytest-cov>=4.0.0
 mypy>=1.0.0
