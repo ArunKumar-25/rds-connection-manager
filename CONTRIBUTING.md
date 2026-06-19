@@ -5,6 +5,7 @@
 1. Fork and clone
 2. Create a virtual environment
 3. Install dependencies: `pip install -r requirements.txt`
+4. Install the package in editable mode for development: `pip install -e .`
 
 ## Testing
 

@@ -29,17 +29,14 @@ jobs:
     - name: Lint with pylint
       run: |
         pylint connect_rds_manager.py --exit-zero
-      continue-on-error: true
     
     - name: Type check with mypy
       run: |
         mypy connect_rds_manager.py --ignore-missing-imports
-      continue-on-error: true
     
     - name: Format check with black
       run: |
         black --check connect_rds_manager.py
-      continue-on-error: true
     
     - name: Run tests
       run: |

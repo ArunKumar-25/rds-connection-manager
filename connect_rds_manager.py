@@ -50,6 +50,15 @@ class RDSConnectionManager:
     DEFAULT_PORT = 5432
     DEFAULT_REGION = "ap-south-1"
     DEFAULT_DB_USER = "appuser"
+    CATALOG_SCHEMA = [
+        "alias",
+        "dbname",
+        "db_endpoint",
+        "port",
+        "region",
+        "account_id",
+        "env",
+    ]
 
     def __init__(self, catalog_path: str, log_path: Optional[str] = None):
         """
@@ -87,9 +96,25 @@ class RDSConnectionManager:
                 data = json.load(f)
                 if not isinstance(data, list):
                     raise ValueError("Catalog must be a JSON list of database configs")
+
+                for entry in data:
+                    self._validate_catalog_entry(entry)
+
                 return data
         except json.JSONDecodeError as e:
             raise ValueError(f"Invalid JSON in catalog: {e}")
+
+    def _validate_catalog_entry(self, entry: Dict[str, Any]) -> None:
+        """Validate a single database catalog entry."""
+        if not isinstance(entry, dict):
+            raise ValueError("Each catalog entry must be a JSON object")
+
+        for field in self.CATALOG_SCHEMA:
+            if field not in entry:
+                raise ValueError(f"Catalog entry is missing required field: {field}")
+
+        if not isinstance(entry["port"], int):
+            raise ValueError("Catalog entry port must be an integer")
 
     def _write_log(self, log_entry: Dict[str, Any]) -> None:
         """Write connection event to log file"""

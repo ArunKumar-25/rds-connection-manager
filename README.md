@@ -1,5 +1,9 @@
 # RDS Connection Manager
 
+[![CI](https://github.com/ArunKumar-25/rds-connection-manager/actions/workflows/tests.yml/badge.svg)](https://github.com/ArunKumar-25/rds-connection-manager/actions)
+[![Python](https://img.shields.io/pypi/pyversions/rds-connection-manager?color=blue&label=python)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 A Python utility for connecting to AWS RDS databases using IAM authentication. It handles token generation, database catalog management, and connection logging.
 
 ## Features
@@ -26,6 +30,8 @@ git clone https://github.com/ArunKumar-25/rds-connection-manager.git
 cd rds-connection-manager
 pip install -r requirements.txt
 ```
+
+This repository includes an example catalog file at `db_catalog.example.json`.
 
 To use as a command-line tool:
 
