@@ -10,9 +10,9 @@ setup(
     description="AWS RDS connection manager with IAM authentication and logging",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Your Name",
-    author_email="your.email@example.com",
-    url="https://github.com/yourusername/rds-connection-manager",
+    author="Arun Kumar",
+    author_email="arunkumarcool324@gmail.com",
+    url="https://github.com/ArunKumar-25/rds-connection-manager",
     license="MIT",
     
     classifiers=[
@@ -34,8 +34,8 @@ setup(
     ],
     
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/rds-connection-manager/issues",
-        "Source": "https://github.com/yourusername/rds-connection-manager",
+        "Bug Reports": "https://github.com/ArunKumar-25/rds-connection-manager/issues",
+        "Source": "https://github.com/ArunKumar-25/rds-connection-manager",
     },
     
     py_modules=["connect_rds_manager"],

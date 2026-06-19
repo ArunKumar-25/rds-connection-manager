@@ -22,7 +22,7 @@ A Python utility for connecting to AWS RDS databases using IAM authentication. I
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/rds-connection-manager.git
+git clone https://github.com/ArunKumar-25/rds-connection-manager.git
 cd rds-connection-manager
 pip install -r requirements.txt
 ```
@@ -32,6 +32,19 @@ To use as a command-line tool:
 ```bash
 pip install -e .
 ```
+
+## Repository links
+
+- [Code](https://github.com/ArunKumar-25/rds-connection-manager)
+- [Issues](https://github.com/ArunKumar-25/rds-connection-manager/issues)
+- [Pull requests](https://github.com/ArunKumar-25/rds-connection-manager/pulls)
+- [Agents](https://github.com/ArunKumar-25/rds-connection-manager/agents?author=ArunKumar-25)
+- [Actions](https://github.com/ArunKumar-25/rds-connection-manager/actions)
+- [Projects](https://github.com/ArunKumar-25/rds-connection-manager/projects)
+- [Wiki](https://github.com/ArunKumar-25/rds-connection-manager/wiki)
+- [Security and quality](https://github.com/ArunKumar-25/rds-connection-manager/security)
+- [Insights](https://github.com/ArunKumar-25/rds-connection-manager/pulse)
+- [Settings](https://github.com/ArunKumar-25/rds-connection-manager/settings)
 
 ## Configuration
 
