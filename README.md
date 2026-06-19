@@ -39,19 +39,6 @@ To use as a command-line tool:
 pip install -e .
 ```
 
-## Repository links
-
-- [Code](https://github.com/ArunKumar-25/rds-connection-manager)
-- [Issues](https://github.com/ArunKumar-25/rds-connection-manager/issues)
-- [Pull requests](https://github.com/ArunKumar-25/rds-connection-manager/pulls)
-- [Agents](https://github.com/ArunKumar-25/rds-connection-manager/agents?author=ArunKumar-25)
-- [Actions](https://github.com/ArunKumar-25/rds-connection-manager/actions)
-- [Projects](https://github.com/ArunKumar-25/rds-connection-manager/projects)
-- [Wiki](https://github.com/ArunKumar-25/rds-connection-manager/wiki)
-- [Security and quality](https://github.com/ArunKumar-25/rds-connection-manager/security)
-- [Insights](https://github.com/ArunKumar-25/rds-connection-manager/pulse)
-- [Settings](https://github.com/ArunKumar-25/rds-connection-manager/settings)
-
 ## Configuration
 
 ### Database Catalog
